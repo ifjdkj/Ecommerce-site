@@ -1,0 +1,571 @@
+@media screen and (min-width:1024px) {
+
+     /* hover editing */
+     .shop-side-content button i:hover {
+          color: red;
+     }
+
+
+     .shop-side-content button:hover {
+          background-color: #de514b;
+     }
+
+     .nav-link ul li.nav-link-li:first-child:hover .home-hide {
+          display: block;
+     }
+
+     .nav-link ul li a.nav-link-a:hover {
+          text-decoration: underline;
+     }
+
+     ul.nav-ul li.category-li:hover .category-content {
+          display: block;
+     }
+
+     ul.nav-ul li.in-page-li:hover ul.sub-menu {
+          display: block;
+     }
+
+     .sec-ser-div:hover .online-ab-div {
+          display: block;
+     }
+
+     .sec-ser-div:hover .pick-ab-div {
+          display: block;
+     }
+
+     .sec-ser-div:hover .product-ab-div {
+          display: block;
+     }
+
+     .sec-ser-div:hover .pro-ab-div {
+          display: block;
+     }
+
+     .milit-logi:hover img.hover-cargo-img {
+          display: block;
+     }
+
+     .milit-logi:hover .cargo-content p a {
+          color: #fff;
+     }
+
+     .milit-logi:hover .cargo-img img:first-child {
+          display: none;
+     }
+
+     .milit-logi:hover {
+          background-color: #002E3A;
+          ;
+     }
+
+     .event-logi:hover img.hover-cargo-img {
+          display: block;
+     }
+
+     .event-logi:hover .cargo-img img:first-child {
+          display: none;
+     }
+
+     .event-logi:hover .cargo-content p a {
+          color: #fff;
+     }
+
+     .event-logi:hover {
+          background-color: #002E3A;
+     }
+
+     .cargo-content {
+          margin-left: 0;
+     }
+     /* over */
+}
+
+@media screen and (max-width:480px) {
+
+     /* regular styling */
+     .row {
+          flex-wrap: wrap;
+     }
+
+     /* over */
+     /* header styling */
+     /* top-head styling */
+     .top-head .container .row {
+          justify-content: center;
+     }
+
+     .currency-language {
+          display: none;
+     }
+
+     /* sec-head styling */
+     .sec-head {
+          position: relative;
+          padding: 13px 0;
+     }
+
+     .sec-head .container .row {
+          justify-content: space-between;
+     }
+
+     .search-eng {
+          display: none;
+     }
+
+     .menu-list {
+          display: block;
+          margin: 0 10px;
+          font-size: 25px;
+     }
+
+     .menu-list i {
+          cursor: pointer;
+          color: #000;
+     }
+
+     .shop-side-content button:last-child {
+          display: none;
+     }
+
+     .shop-side-content button {
+          cursor: pointer;
+     }
+
+     .shop-side-content button.hide-btn {
+          display: inline-block;
+          font-size: 25px;
+          background-color: transparent;
+          color: #000;
+     }
+
+     .shop-side-content button.people-hide {
+          font-size: 25px;
+          background-color: transparent;
+          color: #000;
+     }
+
+     
+     .shop-side-content i {
+          color: #000;
+     }
+
+     .shop-side-content button{
+          color:transparent;
+     }
+
+     .shop-side-content button:first-child {
+          display: none;
+     }
+
+     .main-search-eng {
+          display: block;
+          margin-right: 20px;
+     }
+
+     .main-search-eng i {
+          cursor: pointer;
+          font-size: 20px;
+          color: #000;
+     }
+
+     .search-2 {
+          position: absolute;
+          bottom: -25px;
+          left: 35px;
+     }
+
+     .search-2 input {
+          cursor: pointer;
+          position: relative;
+          z-index: 1;
+          width: 18em;
+          border-radius: 20px;
+          padding: 10px 41px 10px 12px;
+          border: 1px solid #eee;
+          font-family: "Work Sans", sans-serif;
+          outline: none;
+     }
+
+     .rel-i-search {
+          position: relative;
+          display: none;
+     }
+
+     .rel-i-search i.sear-i-tag {
+          position: absolute;
+          right: 17px;
+          top: 8px;
+          color: #999;
+          z-index: 1;
+     }
+
+     /* over */
+     /* over */
+     /* navigation styling */
+
+     .nav-link {
+          display: none;
+     }
+
+     ul.nav-ul {
+          flex-wrap: wrap;
+     }
+
+     /* .nav-link{
+          display: none;
+     } */
+
+     li.nav-link-li {
+          width: 100%;
+     }
+
+     /* over */
+     /* slider-div styling */
+     .slider-row button.slick-prev.slick-arrow {
+          display: none !important;
+     }
+
+     .slider-row button.slick-next.slick-arrow {
+          display: none !important;
+     }
+
+     .slider-div #slick-slide-control00 {
+          left: 46%;
+     }
+
+     .slide-content h1+p {
+          display: none;
+     }
+
+     .slide-cont-part-1 {
+          right: 0;
+          bottom: 40px;
+     }
+
+     .slide-cont-part-1 h1 a {
+          font-size: 20px;
+          letter-spacing: 0;
+     }
+
+     .slide-content p:first-child {
+          margin-bottom: 10px;
+     }
+
+     .slide-cont-part-1 h1 {
+          margin-bottom: 0;
+     }
+
+     .slide-btn {
+          margin-top: 10px;
+     }
+
+     .slide-btn button {
+          font-size: 10px;
+          padding: 10px 10px;
+     }
+
+     .slide-cont-part-2 {
+          left: 40px;
+          bottom: 33px;
+     }
+
+     .slide-content h1 a {
+          font-size: 20px;
+          letter-spacing: 0;
+     }
+
+     /* over */
+     /* over */
+
+     /* progress-work styling */
+
+     .progress-work {
+          margin-top: 40px;
+          margin-bottom: 20px;
+     }
+
+     /* over */
+     /* our-service styling */
+     .our-service {
+          flex-wrap: wrap;
+          background-image: none;
+     }
+
+     .main-service-div {
+          width: 100%;
+          max-width: 286px;
+          margin: auto;
+     }
+
+     .sub-head h3 {
+          font-size: 25px;
+     }
+
+     /* over */
+
+     /* cargo-sefty styling */
+     .company-loyality {
+          margin: 30px auto;
+     }
+
+     .busins-logi p a {
+          font-size: 12px;
+     }
+
+     .transport-bar {
+          margin: 0 10px 20px 10px;
+     }
+
+     .transport-imges-bar {
+          width: 100%;
+     }
+
+
+     .transport-types {
+          margin-bottom: 20px;
+          width: 100%;
+     }
+
+     a.cargo-a{
+          font-size: 12px;
+     }
+
+     .cargo-content {
+          margin-left: 0;
+     }
+
+     .cargo-img img:first-child {
+          display: none;
+     }
+
+     /* over */
+     /* transportation-service styling */
+     .transportation-service {
+          background-image: none;
+          padding-top: 35px;
+          background-color: #f6f8fb;
+     }
+
+     .trans-div-content {
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+
+     .left-trans-div-img {
+          margin-right: 0;
+          margin-bottom: 15px;
+     }
+
+     .trans-about-us {
+          width: 100%;
+          margin-left: 0;
+          margin-top: 30px;
+     }
+
+     .trans-ab-div {
+          margin-bottom: 10px;
+     }
+
+     .trans-heading-side h3 {
+          font-size: 26px;
+     }
+
+     .trans-heading-side {
+          margin-left: 15px;
+     }
+
+     /* over */
+
+     /* test-monial styling */
+     .test-slider button.slick-prev.slick-arrow {
+          left: 42%;
+     }
+
+     .test-slid-div {
+          margin: 0 5px;
+     }
+
+     /* over */
+
+     /* leadership styling */
+     .lead-slid-img img {
+          width: 100%;
+     }
+
+     .leadership-slider button.slick-prev {
+          left: 42%;
+     }
+
+     /* over */
+
+     /* transport-abvanatage styling */
+     .transportation-advantage {
+          margin: 0 15px;
+     }
+
+     .trans-ab-right-child-content {
+          flex-wrap: wrap;
+     }
+
+     .trans-ab-right-child-img {
+          width: 100%;
+     }
+
+     .trans-ab-right-child-co-content {
+          width: 100%;
+          margin-top: 20px;
+          margin-left: 0;
+     }
+
+     .trans-ab-div-part2::before {
+          display: none;
+     }
+
+     .transport-ab-div::before {
+          display: none;
+     }
+
+     .transport-ab-big-content {
+          width: 100%;
+          margin: 0 15px;
+     }
+
+     .trans-ab-right-child-co-content h5 {
+          font-size: 20px;
+     }
+
+     .trans-ab-right-slid {
+          padding: 32px 0;
+     }
+
+     .test-low-head h3 {
+          font-size: 25px;
+     }
+
+     /* over */
+
+     /* transport-tutorial-point styling */
+     .transport-tutorial-point {
+          background-size: cover;
+     }
+
+     .transport-tut-work {
+          width: 100%;
+          text-align: center;
+          transform: translate(0, 6em);
+     }
+
+     .transport-tut-work h1 {
+          font-size: 30px;
+     }
+
+     .trans-tut-work-img-bar {
+          display: none;
+     }
+
+     .transport-tut-btn {
+          transform: translate(0em, 3em);
+     }
+
+     .main-tut iframe {
+          width: 100%;
+          height: 360px;
+          transform: translateX(-11px);
+     }
+
+     .close-tut {
+          transform: translate(26em, -13em);
+     }
+
+     /* over */
+     /* new-arrival styling */
+     .featured-product-slider button.slick-prev {
+          left: 42%;
+     }
+
+     .feat-pro-slid {
+          min-height: 262px;
+     }
+
+     .feat-pro-ab-sale p {
+          padding: 8px 15px;
+          border-radius: 10px;
+     }
+
+     .feat-pro-ab-sale {
+          top: 20px;
+     }
+
+     /* over */
+
+     /* blg-nws styling */
+     .blg-nws-slider button.slick-prev.slick-arrow {
+          left: 42%;
+     }
+
+     .blg-nws-product {
+          text-align: center;
+     }
+
+     .blg-nws-slid-content {
+          margin: 0 15px;
+     }
+
+     /* over */
+
+     /* company-connection styling */
+     .company-connect-slid {
+          margin: 0 15px;
+     }
+
+     .company-connect-slid img {
+          padding: 0 37px;
+     }
+
+     .last-connect-with-us.last-wid {
+          margin-bottom: 15px;
+     }
+
+     /* over */
+
+     /* last-bar styling */
+     .last-bar {
+          height: 100%;
+          background-size: 100% 100%;
+     }
+
+     .last-wid {
+          width: 100%;
+          margin: 0 15px;
+     }
+
+     .mail-side {
+          text-align: center;
+     }
+
+     /* over */
+
+     /* footer styling */
+     .payment-bar {
+          margin: auto;
+          padding: 10px 0;
+     }
+
+     .payment-bar ul li a {
+          font-size: 13px;
+     }
+
+
+     .social-bar {
+          margin: auto;
+          padding: 10px 0;
+     }
+
+     .copy-right-bar {
+          margin: auto;
+          padding: 10px 0;
+     }
+
+     /* over */
+}
